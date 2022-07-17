@@ -7,13 +7,13 @@ export default class TileMap {
     this.tileSize = tileSize;
 
     this.yellowDot = new Image();
-    this.yellowDot.src = "./images/yellowDot.png";
+    this.yellowDot.src = "https://fendrarog.github.io/images/yellowDot.png";
 
     this.pinkDot = new Image();
-    this.pinkDot.src = "./images/pinkDot.png";
+    this.pinkDot.src = "https://fendrarog.github.io/images/pinkDot.png";
 
     this.wall = new Image();
-    this.wall.src = "./images/wall.png";
+    this.wall.src = "https://fendrarog.github.io/images/wall.png";
 
     this.powerDot = this.pinkDot;
     this.powerDotAnimationTimerDefault = 30;
