@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./images/favicon.ico" />
+    <title>Pac-Man</title>
+    <style>
+      #game {
+        box-shadow: 10px 10px 20px black;
+      }
+      h1 {
+        text-align: center;
+        font-family: Impact;
+        font-weight: normal;
+        color: lightgrey;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+        overflow: hidden;
+        background: linear-gradient(
+          0deg,
+          rgb(104, 35, 182) 50%,
+          rgb(21, 29, 189) 100%
+        );
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Pac-Man</h1>
+      <canvas id="game"></canvas>
+      <script src="./src/Game.js" type="module"></script>
+    </div>
+  </body>
+</html>
