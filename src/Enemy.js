@@ -131,8 +131,7 @@ export default class Enemy {
 
   #loadImages() {
     this.normalGhost = new Image();
-    this.normalGhost.src =
-      "/fendrarog/Pacman/blob/master/images/ghost.png?raw=true";
+    this.normalGhost.src = "../images/ghost.png";
 
     this.scaredGhost = new Image();
     this.scaredGhost.src = "../images/scaredGhost.png";
